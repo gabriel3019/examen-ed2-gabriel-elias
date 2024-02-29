@@ -1,0 +1,10 @@
+#Ignorar todos los .class que haya dentro de layers
+layers/date-transformers/out/*.class
+layers/json-parser/out/*.class
+#Ignorar todos los archivos .json
+*.json
+#Todo lo que contenga la carpeta node_modules dentro de src sin contarsrc
+!src
+!src/node_modules
+
+
